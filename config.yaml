@@ -1,0 +1,9 @@
+# config.yaml
+google:
+  credentials: credentials.json          # NO cambies este nombre; el JSON debe estar en la raíz del proyecto
+  parent_id: "1xR5fE6ji-gVlh9uj_2kkt2siLpb6ZeAI"  # ID de la carpeta JEQUIMA‑Exámenes en Drive
+
+groups:
+  - name: GrupoA
+    local_base: data/GrupoA              # aquí se crearán subcarpetas diagnostico_raw / final_raw
+    drive_id: ""                         # el script la rellenará la primera vez
